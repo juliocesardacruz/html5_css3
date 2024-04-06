@@ -6,13 +6,68 @@
 body {
     background-color: lightgreen;
     font-family: Arial, Helvetica, sans-serif  ;
+    margin: 0px;
+}
+
+strong {
+    color: green;
 }
 
 #principal {
-    height: 300px;
+    height: 200px;
     text-align: center; 
+    background-color: green;
+    color: white;
 }
 
-#principal > ul {
-    align-items: le;
+#link_principal {
+    text-align: left;
+    padding: 40px;
 }
+
+#link_principal >a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+section {
+    margin: 1px 250px 1px 250px;
+    background-color: white;
+}
+
+#historia {
+    padding: 10px;
+}
+
+#historia > h2 {
+font-family:droid ;
+}
+
+#versao1 > h2 {
+    font-family: droid;
+    background-image: linear-gradient(90deg, rgba(0, 128, 0, 0.408), white);
+}
+
+#versao1 > p { /*linha 32*/
+    padding: 10px;
+}
+
+picture {
+    display: flex;
+    justify-content: center;
+}
+
+#aposimagem { /*linha 40*/
+    padding: 10px ;
+}
+#novomasc > h2 {/* linha 43*/
+    font-family:droid ;
+    background-image: linear-gradient(90deg, rgba(0, 128, 0, 0.408), white);
+}
+
+#novomasc > p {
+    padding: 10px;
+}
+
+/*Tratar imagem 2*/
