@@ -5,8 +5,9 @@
 
 body {
     background-color: lightgreen;
-    font-family: Arial, Helvetica, sans-serif  ;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
+    border: 0px;
 }
 
 strong {
@@ -16,7 +17,7 @@ strong {
 #principal {
     height: 200px;
     text-align: center; 
-    background-color: green;
+    background-image: linear-gradient(180deg, rgba(82, 163, 82, 0.516), darkgreen);
     color: white;
 }
 
@@ -31,9 +32,14 @@ strong {
     padding: 10px;
 }
 
+#link_principal:hover {
+    text-decoration: underline;
+}
+
 section {
-    margin: 1px 250px 1px 250px;
+    margin: 1px 350px 1px 350px;
     background-color: white;
+    border-radius: 0px 0px 10px 10px;
 }
 
 #historia {
@@ -41,12 +47,16 @@ section {
 }
 
 #historia > h2 {
-font-family:droid ;
+font-family:droid;
+color: darkgreen;
 }
 
 #versao1 > h2 {
     font-family: droid;
     background-image: linear-gradient(90deg, rgba(0, 128, 0, 0.408), white);
+    padding-left: 10px;
+    margin: 0px 10px 0px 10px;
+    color: darkgreen;
 }
 
 #versao1 > p { /*linha 32*/
@@ -64,10 +74,77 @@ picture {
 #novomasc > h2 {/* linha 43*/
     font-family:droid ;
     background-image: linear-gradient(90deg, rgba(0, 128, 0, 0.408), white);
+    padding-left: 10px;
+    margin: 0px 10px 0px 10px;
+    color: darkgreen;
 }
 
 #novomasc > p {
     padding: 10px;
 }
+
+#bugdroid {
+    text-align: center;  
+}
+
+#video{
+    background-color: green;
+    padding: 15px 30px 15px 30px;
+    width: auto;
+}
+
+#verde {
+    background-color:#C5EBD6;
+    margin: 10px;
+    border: 0px;
+    border-radius: 15px;
+}
+
+#quer {
+    background-color: green;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    height: 40px;
+}
+
+#quer > h2 {
+    margin: 10px;
+    padding: 5px;
+    border: 10px;
+    font-size: 18px;
+}
+
+#verde > p {
+    margin: 0px;
+    padding: 10px;
+    border: 10px;
+}
+
+#final {
+    margin: 0px;
+    padding: 10px;
+    border: 10px; 
+}
+
+footer {
+    background-color: green;
+    text-align: center;
+    color: white;
+    padding: 2px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+footer > span {
+    color: white;
+    font-size: medium;
+}
+
+footer > strong {
+    color: white;
+    font-size:larger;
+}
+
+
 
 /*Tratar imagem 2*/
